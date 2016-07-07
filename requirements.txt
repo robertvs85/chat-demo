@@ -1,0 +1,9 @@
+argparse==1.2.1
+backports-abc==0.4
+backports.ssl-match-hostname==3.5.0.1
+certifi==2016.02.28
+distribute==0.6.24
+singledispatch==3.4.0.3
+six==1.10.0
+tornado==4.3
+wsgiref==0.1.2

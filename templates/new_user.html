@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tornado Chat Demo</title>
+    <link rel="stylesheet" href="{{ static_url("chat.css") }}" type="text/css">
+  </head>
+  <body>
+    <form action="{{chat_id}}" method="post">
+      {% module xsrf_form_html() %} 
+      Enter a username:<br>
+      <input type="text" name="username"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
